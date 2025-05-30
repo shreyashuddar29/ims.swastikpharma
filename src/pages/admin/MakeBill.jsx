@@ -380,7 +380,7 @@ function MakeBill() {
                                     <div>
                                         <label className="text-green-900 text-md font-bold">Bank: Union Bank of India</label><br />
                                         <label className="text-green-900 text-md font-bold">Branch: Tilakwadi, Belagavi</label><br />
-                                        <label className="text-green-900 text-md font-bold">Name: Sateesh Raghavendra Huddar</label><br />
+                                        <label className="text-green-900 text-md font-bold">Name: Swastik Pharma</label><br />
                                         <label className="text-green-900 text-md font-bold">A/C No.: </label><br />
                                         <label className="text-green-900 text-md font-bold">IFSC Code: </label><br />
                                         <label className="text-green-900 text-md font-bold">UPI No.: 7996608996</label>
@@ -390,18 +390,11 @@ function MakeBill() {
                                     </div>
                                 </div>
                             </td>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td colSpan={6} rowSpan={2} className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 align-top">
                                 <label className="text-green-900 text-md font-bold">Amount in words: <div>{convertToWords(Math.round(amt + 2 * (amt * 0.06)))} only.</div></label>
                             </td>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td className="h-12 px-2 text-md text-right transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase">
                                 <label className="text-green-900 text-md font-bold">Total: </label>
                             </td>
@@ -410,17 +403,7 @@ function MakeBill() {
                             </td>
                         </tr>
                         <tr>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td className="h-12 px-2 text-md text-right transition duration-300 border-t border-l first:border-l border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase">
                                 <label className="text-green-900 text-md font-bold">CGST: </label>
                             </td>
@@ -429,19 +412,11 @@ function MakeBill() {
                             </td>
                         </tr>
                         <tr>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td colSpan={6} rowSpan={2} className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l border-green-700 first-letter:uppercase text-center align-top">
                                 <label className="text-green-900 text-md font-bold">For Swastik Pharma</label>
                             </td>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td className="h-12 px-2 text-md text-right transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase ">
                                 <label className="text-green-900 text-md font-bold">SGST: </label>
                             </td>
@@ -450,17 +425,7 @@ function MakeBill() {
                             </td>
                         </tr>
                         <tr>
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
-                            {/* <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td>
-                            <td className="h-12 px-2 text-md transition duration-300 border-t border-l first:border-l-0 border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase "></td> */}
+
                             <td className="h-12 text-md text-right transition duration-300 border-t border-l first:border-l border-green-700 stroke-slate-500 text-slate-500 first-letter:uppercase ">
                                 <label className="text-green-900 text-lg font-bold">Amount: </label>
                             </td>

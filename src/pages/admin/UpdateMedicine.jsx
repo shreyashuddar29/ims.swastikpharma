@@ -212,7 +212,7 @@ function UpdateMedicine() {
                             onClick={updateMedicineFunction}
                             className="hover:bg-green-700 hover:text-yellow-50 bg-yellow-50 border border-green-700 text-green-700 text-center py-2 w-50 cursor-pointer font-bold rounded-md text-xl"
                         >
-                            Add Medicine
+                            Update Medicine
                         </button>
                     </div>
                 </div>
